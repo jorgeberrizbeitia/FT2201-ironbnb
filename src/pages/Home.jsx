@@ -1,0 +1,16 @@
+import React from 'react'
+
+function Home() {
+  return (
+    <div>
+    
+      <h1>Home</h1>
+
+      <h3>Bienvenidos a Nuestra pagina de pisos</h3>
+      <p>Mejor que airbnb!!!</p>
+
+    </div>
+  )
+}
+
+export default Home
