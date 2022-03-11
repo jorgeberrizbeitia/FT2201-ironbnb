@@ -12,7 +12,7 @@ function Navbar() {
         }}
       </NavLink>
 
-      <NavLink to="/pisos" end>
+      <NavLink to="/pisos" end> 
       {( {isActive} ) => {
           return <button className={ isActive ? "nav-active" : "nav-unactive" }>Ver Pisos</button>
         }}

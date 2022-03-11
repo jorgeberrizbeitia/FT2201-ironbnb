@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [ darkTheme, setDarkTheme ] = useState(false)
+  const [ darkTheme, setDarkTheme ] = useState(true)
 
   const darkStyles = {
     backgroundColor: "black",
